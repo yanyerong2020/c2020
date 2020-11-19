@@ -1,11 +1,11 @@
 #include<stdio.h>
 void main(){
-int n;
-scanf("%d",&n)
-if(n=1){
+int x;
+scanf("%d",&x)
+if(x==1){
 printf("男");
 }
-else if(n=0){
+else if(x==0){
 printf("女");
 }
 else{
