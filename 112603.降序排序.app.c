@@ -17,5 +17,5 @@ if(y<z)
 {
 a=y;y=z;z=a;
 }
-printf("%d,%d,%d",x,y,z);
+printf("%d,%d,%d\n",x,y,z);
 }
