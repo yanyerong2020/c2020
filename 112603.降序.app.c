@@ -2,20 +2,20 @@
 
 void main()
 {
-int x,y,z,t;
+int x,y,z,a;
 scanf("%d,%d,%d",&x,&y,&z);
 if(x<y)
 {
-t=x;x=y;y=t;
+a=x;x=y;y=a;
 }
 if(x<z)
 {
-t=x;x=z;z=t;
+a=x;x=z;z=a;
 }
 
 if(y<z)
 {
-t=y;y=z;z=t;
+a=y;y=z;z=a;
 }
 printf("%d,%d,%d",x,y,z);
 }
