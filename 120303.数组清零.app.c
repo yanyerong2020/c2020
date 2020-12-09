@@ -32,6 +32,7 @@ for(a=0;a<20;a++){
 	}
 	printf("\n");
 }
+	Sleep(5000);
 for(a=0;a<20;a++){
 	for(b=0;b<10;b++){
 	x[a][b]=999;
