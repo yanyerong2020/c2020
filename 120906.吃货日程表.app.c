@@ -1,16 +1,28 @@
 #include<stdio.h>
 #include<string.h>
 void main(){
-	char x1[]="春节";
-	char x2[]="端午";
-	char x3[]="中秋节";
-	char x4[]="元宵";
-	scanf("%s",&x1);
-printf("饺子",x1);
-		scanf("%s",&x2);
-printf("粽子",x2);
-	scanf("%s",&x3);
-printf("月饼",x3);
-		scanf("%s",&x4);
-printf("元宵",x4);
+printf("欢迎使用吃货小程序\n");
+while(1){
+	char x[27];
+	char a[]="春节";
+	char b[]="端午";
+	char c[]="中秋节";
+	char d[]="元宵";
+	scanf("%s",&x);
+	if(strcmp(a,x)==0){
+	printf("吃饺子\n");
+	}
+	else if(strcmp(b,x)==0){
+	printf("吃粽子\n");
+	}
+	else if(strcmp(c,x)==0){
+	printf("吃月饼\n");
+	}
+	else if(strcmp(d,x)==0){
+	printf("吃汤圆\n");
+	}
+		else {
+	printf("请输入正确节日\n");
+	}
+	}
 }
