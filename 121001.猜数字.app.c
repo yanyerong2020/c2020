@@ -10,7 +10,7 @@ while(1)
 int s=7;
 int y;
 		scanf("%s",&x);
-		if(strcmp(x,i)==0)
+		if(strcmp(i,x)==0)
 		{
 		printf("  答对了，真棒! \n");
 		}
@@ -32,4 +32,6 @@ printf("猜错了，太大了，重猜\n");
 else
 {
 printf("猜错了，太小了，重猜\n");
+}
+}
 }
